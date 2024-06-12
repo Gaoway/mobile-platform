@@ -1,0 +1,1 @@
+mpiexec --oversubscribe -n 1 python server.py --config_file cifar_iid : -n 10 python client.py --config_file cifar_iid
